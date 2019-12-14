@@ -1,0 +1,169 @@
+# albaylydia.github.io
+Project website
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Transgénicos</title>
+    </head>
+    <body>
+        <h1 id="h1"><strong>Cumbre</strong> del <strong>clima</strong><br><em id="h11">Transgénicos</em><br> </h1>
+      hhhh
+      <div id="circle"></div> 
+        <h2 id="contenido">CONTENIDO</h2>
+        <ol id="indice">
+            <li><a href="#titulo1">¿Qué son los transgénicos?</a></li>
+            <li><a href="#titulo2">¿Qué tipo de genes se utilizan en los cultivos y productos transgénicos?</a></li>
+            <li><a href="#titulo3">¿Qué tipo de transgénicos existen?</a></li>
+        </ol>
+        <h3 id="titulo1">¿Qué son los <em>transgénicos</em>?</h3>
+        <p id="text1">Son organismos modificados mediante ingeniería genética en los que se han introducido uno o varios genes de otras especies. <br>Por ejemplo, el maíz transgénico que se cultiva en España contiene un gen <br>de la bacteria Bacillus thuringiensis. Si en algún caso ves o escuchas hablar <br>de organismos modificados genéticamente (OMG), también estarán hablando<br> de transgénicos.</p>
+        <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Golden_Rice.jpg/330px-Golden_Rice.jpg" id="img1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/C5_plum_pox_resistant_plum.jpg/330px-C5_plum_pox_resistant_plum.jpg" id="img2">
+        <h4 id="titulo2">¿Qué tipo de genes se utilizan en los cultivos y productos transgénicos?</h4>
+        <p id="text2">Los cultivos y alimentos transgénicos actualmente en el mercado incorporan básicamente genes de bacterias, pero las posibilidades son muy amplias. Se investiga con genes de ratones en cerdos, genes de pescado en tomates, genes humanos en arroz y un largo etcétera.</p>
+
+<button type="button"
+onclick="document.getElementById('text2').innerHTML = 'Este tipo de alimentos han sido objetivo de mucha polémica. Existen posiciones enfrentadas entre los que están de acuerdo y aquellos expertos que están en contra de su utilización.'">
+Pulsame para más información!</button>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Contra_los_transg%C3%A9nicos_-_Madrid_-_20080830.jpg/1024px-Contra_los_transg%C3%A9nicos_-_Madrid_-_20080830.jpg" name="prueba" onMousedown="cambia_imagen()" width="300" height="300">
+
+    <h5 id="titulo3">¿Qué tipos de transgénicos existen?</h5>
+    <p id="text3">Son pocos: básicamente <strong>soja, maíz, algodón y colza</strong>, que suponen prácticamente el 100% de la superficie cultivada con OMG a nivel mundial.</p>
+    
+    <div>
+        <!-- Cat walking GIF from: http://www.anniemation.com/clip_art/graphics.html -->
+        <img id="cat" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Rotating_earth_%28large%29.gif/300px-Rotating_earth_%28large%29.gif">
+    </div>
+    <style>
+        body{
+            font-size:16px;
+            background-color:black;
+            
+        }
+            #h1{
+                font-size:18px;
+                color:rgb(255, 255, 166);
+                font-family:arial;
+                float:right;
+            }
+            #h11{
+                font-size:40px;
+                color:rgb(255, 255, 255);
+                font-family:times;
+                float:right;
+            }
+            #f55{
+                color:white;
+            }
+            #circle {
+                    width: 335px;
+                    height: 10px;
+                    -webkit-border-radius: 51px;
+                    -moz-border-radius: 64px;
+                    border-radius: 73px;
+                    background:white;
+      
+    }
+            #titulo1 {
+                color:rgb(254, 255, 178);
+                font-size:20px;
+                font-family:arial;
+            }
+            
+            #text1 {
+                color:white;
+                font-size:14px;
+                font-family:arial;
+                
+            }
+            #img1 {
+                width:280px;
+                top:20px;
+                left:10px;
+                float:left;
+            }
+            
+            #img2 {
+                width:278px;
+                height:187px;
+                top:25px;
+                left:10px;
+                float:right;
+            }
+            #contenido {
+                color:white;
+                font-size:21px;
+                font-family:arial;
+            }
+            #indice {
+                color:white;
+                font-size:16px;
+                font-family:arial;
+            }
+            #titulo2 {
+                color:rgb(254, 255, 178);
+                font-size:16px;
+                font-family:arial;
+                float:right;
+            }
+            #text2 {
+                color:white;
+                font-size:14px;
+                font-family:arial;
+            }
+            #titulo3 {
+                color:rgb(254, 255, 178);
+                font-size:16px;
+                font-family:arial;
+            }
+            #text3 {
+                color:white;
+                font-size:14px;
+                font-family:arial;
+                float:left;
+            }
+            #mundo {
+                float:left;
+            }
+            
+        }
+        #cat {
+                position: absolute;
+                left: 0px;
+            }
+    </style>
+    <script>
+    mi_imagen1=new Image
+    mi_imagen1.src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Contra_los_transg%C3%A9nicos_-_Madrid_-_20080830.jpg/1024px-Contra_los_transg%C3%A9nicos_-_Madrid_-_20080830.jpg"
+    mi_imagen2=new Image
+    mi_imagen2.src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Transformation_with_Agrobacterium.JPG/330px-Transformation_with_Agrobacterium.JPG"
+var i=1;
+function cambia_imagen() {                      
+   if (i == 1)
+      {
+      document.images['prueba'].src=mi_imagen2.src
+      i=2;
+      }
+   else
+      {
+      document.images['prueba'].src=mi_imagen1.src;
+      i=1;
+      }
+   }
+   var catEl = document.getElementById("cat");
+  
+  var startTime = new Date().getTime();
+  var walkTheCat = function() {
+      var currTime = new Date().getTime();
+      var secondsElapsed = ((currTime - startTime)/1000);
+   var newLeft= secondsElapsed*30 + "px";
+    catEl.style.left= newLeft;
+    window.requestAnimationFrame(walkTheCat);
+  };
+  walkTheCat();
+  
+    </script>
+    </body>
+</html>
