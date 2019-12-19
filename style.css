@@ -1,0 +1,98 @@
+<style>
+        body{
+            font-size:16px;
+            background-color:black;
+            
+        }
+            #h1{
+                font-size:18px;
+                color:rgb(255, 255, 166);
+                font-family:arial;
+                float:right;
+            }
+            #h11{
+                font-size:40px;
+                color:rgb(255, 255, 255);
+                font-family:times;
+                float:right;
+            }
+            #f55{
+                color:white;
+            }
+            #circle {
+                    width: 335px;
+                    height: 10px;
+                    -webkit-border-radius: 51px;
+                    -moz-border-radius: 64px;
+                    border-radius: 73px;
+                    background:white;
+      
+    }
+            #titulo1 {
+                color:rgb(254, 255, 178);
+                font-size:20px;
+                font-family:arial;
+            }
+            
+            #text1 {
+                color:white;
+                font-size:14px;
+                font-family:arial;
+                
+            }
+            #img1 {
+                width:280px;
+                top:20px;
+                left:10px;
+                float:left;
+            }
+            
+            #img2 {
+                width:278px;
+                height:187px;
+                top:25px;
+                left:10px;
+                float:right;
+            }
+            #contenido {
+                color:white;
+                font-size:21px;
+                font-family:arial;
+            }
+            #indice {
+                color:white;
+                font-size:16px;
+                font-family:arial;
+            }
+            #titulo2 {
+                color:rgb(254, 255, 178);
+                font-size:16px;
+                font-family:arial;
+                float:right;
+            }
+            #text2 {
+                color:white;
+                font-size:14px;
+                font-family:arial;
+            }
+            #titulo3 {
+                color:rgb(254, 255, 178);
+                font-size:16px;
+                font-family:arial;
+            }
+            #text3 {
+                color:white;
+                font-size:14px;
+                font-family:arial;
+                float:left;
+            }
+            #mundo {
+                float:left;
+            }
+            
+        }
+        #cat {
+                position: absolute;
+                left: 0px;
+            }
+    </style>
